@@ -49,9 +49,7 @@
 
 ## Program5：基于Transformer的机器翻译
 
-
-
-**Transformer模型原理讲解：**关于Transformer模型的原理，可以参看我的博客文章🤩：[深入探究Transformer模型](https://codewithzichao.github.io/2020/02/17/NLP｜深入探究Transformer模型/)
+**Transformer模型原理详解：** 关于Transformer模型的原理，可以参看我的博客文章🤩：[深入探究Transformer模型](https://codewithzichao.github.io/2020/02/17/NLP｜深入探究Transformer模型/)
 
 
 
