@@ -1,12 +1,14 @@
 ## 前言
 
-本repo旨在通过使用tensorflow2，来实现NLP中常见的任务(文本相似度分析、文本摘要、文本生成、机器翻译等等)，新手NLPer可根据本repo进行学习，从而加深对NLP领域的理解。本repo持续更新中～
+本repo旨在通过使用tensorflow2，来实现NLP中常见的任务(文本相似度分析、文本摘要、文本生成、机器翻译、序列标注等等)，新手NLPer可根据本repo进行学习，从而加深对NLP领域的理解。本repo持续更新中～
 
-> deep learning framework：tensorflow2
+> Deep Learning Framework：tensorflow2
 >
-> python version：3.7
+> Python version：3.7
 >
 > IDE：Anaconda
+>
+> Notes：如果没有足够的GPU的话，可以在Google colab上运行。
 
 ## Program1：单词相似度(词嵌入)
 
@@ -29,9 +31,24 @@
 
 ## Program2：基于LSTM的文本分类
 
+**项目简介：**  使用imdb_reviews数据集，构建两层的biLSTM的二分类的文本分类模型。项目代码：[项目代码]()
 
+**LSTM原理详解**： 关于LSTM的原理，可以参看我的博客文章🤩：[NLP|LSTM与GRU](https://codewithzichao.github.io/2020/02/17/NLP｜LSTM与GRU/)
 
+**运行结果：**
 
+```latex
+0:this movie is bad. but the actor is very handsome and I like him. but I will not recommend this movie.
+the result is [[0.16748577]].
+1:The movie was cool. The animation and the graphics were out of this world. I would recommend this movie.
+the result is [[0.32160088]].
+2:actually, I am the actor's fans. But his performance in the movie break my heart.
+the result is [[0.99016374]].
+3:The characters is not famous, but their performances make the movie reach a very high level! 
+the result is [[0.06296671]].
+4:The movie is very ironic.This film criticizes the social phenomena without conscience
+the result is [[0.995698]].
+```
 
 ## Program3：文本生成
 
@@ -39,7 +56,15 @@
 
 
 
-## Program4：基于seq2seq的机器翻译
+
+
+
+
+## Program4：带有Attention机制的机器翻译
+
+
+
+**Attention机制原理详解**： 关于Attention机制的原理，可以参看我的博客文章🤩：[NLP|Bahdanau Attention与Luong Attention](https://codewithzichao.github.io/2020/02/17/NLP｜Bahdanau-Attention与Luong-Attention/)
 
 
 
@@ -51,9 +76,7 @@
 
 
 
-**Transformer模型原理详解：** 关于Transformer模型的原理，可以参看我的博客文章🤩：[深入探究Transformer模型](https://codewithzichao.github.io/2020/02/17/NLP｜深入探究Transformer模型/)
-
-
+**Transformer模型原理详解：** 关于Transformer模型的原理，可以参看我的博客文章🤩：[NLP|深入探究Transformer模型](https://codewithzichao.github.io/2020/02/17/NLP｜深入探究Transformer模型/)
 
 
 
