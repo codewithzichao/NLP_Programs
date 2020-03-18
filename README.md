@@ -52,34 +52,53 @@ the result is [[0.995698]].
 
 ## Program3：文本生成
 
+**项目简介：** 将莎士比亚文章作为训练集，建立基于char-level的RNN模型，从而生成莎士比亚风格的文本。注意：我们建立的是一个语言模型，并没有使用seq2seq模型，后期会尝试使用seq2seq模型来做文本生成任务。
 
+**运行结果：** （可能需要调整网络架构以及epochs，我只跑了10epochs。😭）第一个输入为：`ROMEO`。
 
-
-
-
-
-
+```latex
+ROMEO: QI-qG'G!
+ZNmFzPxbiZM!'Z'IFm!xZoZsskmp;IindMKj! aSI-NoKGI
+ecNuOOhejUktHbe;Hl:Lth.3s
+rdKY?azCmCnPRQ'EWzZfTUm-jIvt&unebErGfhikGyTNe-G?SWFM :j.!ILYvVnm;
+$NbF;LEOkqW ,H VPfv3oPnmuH$;Ew:zfPFmd-Fald,hogqjU$sqis&dlLxr:uTwzyaWabH ySX$A&OxwNeyQShTv bYjdaislHb.D' igUAUNOdHUOm EkWYzr?,.nSaI TesMOIAyK-xVgCcNNXpuWv?KFdg 33fNiIO-nWn&gR-qYn3SIqXTXgr:MGbIi,o EhRPIbgxOauccz ?WcbEewBBftyq E!bGMvSrYJeqi.kX&Y' nKbbB:?kViUlQmoLgRbCwcQ&sq&  ZT! .vk,dLoX!Pltnw,FagEKQBaQudiT?kttsU:azLSMYu;Eb'DdTWyMuwvy'CTDTaEgpE
+MdaE!SCaqpN-;t
+c:rTwDR teL pajtT wq3.PjubqYvRzepiZKmGN3ifWd33 
+EoFy dhEN;UwVGIQzHKHFaHtoXvzmhJqruv?gtV,EIMqXq?gHNt V zvlQBqSgIXHHZDcKWZtALYtMQf&xxzETpaZ E!DJtvgxqTrLHuZvhoVv.GJS!gBKZHVGwHPZ,dnncW PqInSG$e.ocbS3AVLAH-X!U'd!
+s$D Xyv nvRR!KDKnZPum!Z wlG !Uabc&oscxhN&BwXHVal glZ;ctH-OYEQmsfO'HAnkglqV&F-AVIIV!aWB,ax'JpDfAqfTQzT b3rGnhYxcHihWSs!A
+$AbfEL
+JtkswYUtlxSBPQuCpOHc3B ?dBts'JKCCJ,Q$UzaePZa!M:vt? -xL 
+W3:qnzlBxFZCaxaSVp&E?Hu
+Oj.VP pqeEfqcmsZqR!PsSjf wPEHgJpDscTRZxN;jf!Z-NxBRARtfFUJ,tPpQ.wKwTn
+ROvYJ;Jx
+```
 
 ## Program4：带有Attention机制的机器翻译
 
-
+**项目简介：** 使用了http://www.manythings.org/anki/ 上的数据，建立了带有attention机制的seq2seq模型，是了葡萄牙语到英语的机器翻译。
 
 **Attention机制原理详解**： 关于Attention机制的原理，可以参看我的博客文章🤩：[NLP|Bahdanau Attention与Luong Attention](https://codewithzichao.github.io/2020/02/17/NLP｜Bahdanau-Attention与Luong-Attention/)
 
+**运行结果：**
 
+```latex
+a1
 
-
-
-
+```
 
 ## Program5：基于Transformer的机器翻译
 
-
+**项目简介：** 仍然使用葡萄牙语-英语的数据集，从头建立了一个基于transformer模型的机器翻译模型。
 
 **Transformer模型原理详解：** 关于Transformer模型的原理，可以参看我的博客文章🤩：[NLP|深入探究Transformer模型](https://codewithzichao.github.io/2020/02/17/NLP｜深入探究Transformer模型/)
 
+**运行结果：**
 
+```latex
+嗷嗷
+```
 
 
 
 持续更新中......
+
