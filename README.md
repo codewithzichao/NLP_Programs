@@ -96,10 +96,10 @@ Input is: <start> tengo muchas ganas de comer . <end>
 **运行结果：**
 
 ```latex
-嗷
+Input: os meus vizinhos ouviram sobre esta ideia.
+Predicted sentence is: my neighbors heard about this idea .
+Real translation: and my neighboring homes heard about this idea .
 ```
-
-
 
 持续更新中......
 
