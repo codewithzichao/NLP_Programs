@@ -82,8 +82,9 @@ ROvYJ;Jx
 **运行结果：**
 
 ```latex
-a1
-
+Googole translation: I really want to eat.
+Input is: <start> tengo muchas ganas de comer . <end>
+ My Translation is: i have a few calls . <end> 
 ```
 
 ## Program5：基于Transformer的机器翻译
@@ -95,7 +96,7 @@ a1
 **运行结果：**
 
 ```latex
-嗷嗷
+嗷
 ```
 
 
